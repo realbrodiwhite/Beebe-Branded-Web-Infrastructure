@@ -4,7 +4,7 @@
   "globalEnv": ["PORT"],
   "pipeline": {
     "build": {
-      // "outputs" are defined in Workspace Configurations: https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces
+      "outputs": [ ],
       "dependsOn": ["^build"]
     },
     "test": {

@@ -46,7 +46,7 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
       vite:
-        specifier: ^5.0.12
+        specifier: <=4.0.0 || >=4.5.2
         version: 5.0.12
 
   apps/api:
